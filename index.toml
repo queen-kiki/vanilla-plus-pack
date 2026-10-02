@@ -14,6 +14,10 @@ file = "config/c2me.toml"
 hash = "f350b89f60464c330f6e927ef2531db7b3db46f89352adad2a6e90277efff05d"
 
 [[files]]
+file = "config/defaultoptions-common.toml"
+hash = "4184766bba5088428273331aff19841f3f4ebdc0a132f19645cd0034dbfdb9f1"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "bff32ad70ae5cc62f5dda8e38adb4d2bbf261244b62992cc2127e7677b3e10ed"
 
@@ -651,8 +655,18 @@ hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "0ae06c97bf858f3941fd7369e34a71967e7a5c26c26b1cb7371a5be0f1842ecd"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "30d6875d934c57d5827f29f35ca77efc72a21df361ad3d578b93e7e137a39654"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "42731772f3bde6bc35c48ff39a0b16c24edfa245c42d2ca8c8abd11f57edf4e7"
 metafile = true
 
 [[files]]
@@ -883,6 +897,204 @@ metafile = true
 [[files]]
 file = "mods/vanillaplus-tweaks.jar"
 hash = "c234023e93e034642b08fe85ad29bb540b75b38a1dea64cb25eee59846ab170e"
+
+[[files]]
+file = "resourcepacks/allure-3d-plants.pw.toml"
+hash = "fbdaaf17902db87a59ebd578d4be201565e5603be337a8e247afe4014c447730"
+metafile = true
+
+[[files]]
+file = "resourcepacks/allure-pack.pw.toml"
+hash = "9714c28ce73cc98336600cb9aac9c77aa4af827cb8456e301297f5b8d259f5cb"
+metafile = true
+
+[[files]]
+file = "resourcepacks/better-animations.pw.toml"
+hash = "2fbffe1c9dcc7d653da6a8999147fac7b882ad310a549deb780ead10c53f9066"
+metafile = true
+
+[[files]]
+file = "resourcepacks/better-leaves.pw.toml"
+hash = "c26f8da8b6f013fb7e917e29fc6ae783eb379c539da12d9d61196bc762fd26e1"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "9dc9b1568b6eaa48e16455e2a119566aa0e1c0e6f3e71099b97c535a73d0cd84"
+metafile = true
+
+[[files]]
+file = "resourcepacks/reimagined.pw.toml"
+hash = "c5c39a12c715a05a487930a4d12cd09571482c20887a08c60e1a258dc3baf615"
+metafile = true
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/blockstates/alpha_leaves.json"
+hash = "77dbaf48ce06f20590b103b3cc260c6370ae38d997082c813cb215d7eac1fd24"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/blockstates/apple_oak_leaves.json"
+hash = "b64035e533fbe83859c77e7e4094a77170e0c101c169265c78c72ad054abbfc5"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/blockstates/flowering_leaves.json"
+hash = "413d5a2958d376da43277117575e4a1034c33bbc534ef3521ed5c6c29ad91a7c"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/blockstates/lavender_wisteria_leaves.json"
+hash = "6f6148d6ceba3e45ee03c42aac4385d8add7d68ec88e765abca3f238ca10b546"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/blockstates/salmon_wisteria_leaves.json"
+hash = "6f6148d6ceba3e45ee03c42aac4385d8add7d68ec88e765abca3f238ca10b546"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/blockstates/sky_wisteria_leaves.json"
+hash = "6f6148d6ceba3e45ee03c42aac4385d8add7d68ec88e765abca3f238ca10b546"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/blockstates/wisteria_leaves.json"
+hash = "6f6148d6ceba3e45ee03c42aac4385d8add7d68ec88e765abca3f238ca10b546"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/alpha_leaves.json"
+hash = "49471a51fbabfff09d64474b601152673c9e2d1bf34adff7846039680fd7e4fd"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/alpha_leaves1.json"
+hash = "725e5ab2ff7844201af3c23af8f5aaceb5988d6223efa80e71f3c070314c0dd0"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/alpha_leaves2.json"
+hash = "ce07183e7910fbeb27ef8088a7ec4b2e9110408a3a5d0a34f65291cdcccbb4cd"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/alpha_leaves3.json"
+hash = "f44456ab50f9eec4d5d40a5af075b350cbd914b1f067d41fcb8ad16443cdfc64"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/alpha_leaves4.json"
+hash = "3641fd61f11f0f67c0c0a953287e7b7f95b787810fef606dd639f69cee126dc2"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_0.json"
+hash = "2875e452b91d25ebe7567f6c9e8a95941d511f6911a99c93a4721afd78d4e71b"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_01.json"
+hash = "da4ff4afad7849630a639ed2b2d0bd25d7daedd54d4e9a6f71609bb6cfda9708"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_02.json"
+hash = "f03714d29317b2ed1bcc06fe1abc616a806d41524d6d572af361eee13338b87d"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_03.json"
+hash = "b0c8d588e85584506ef708e00d45c16ad589fef0ce030a83b99536f2fc1fe1d1"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_04.json"
+hash = "5c28bf7fb1936bf305e87e796638390de6020dfa5bcf1c3317e4c04f82a2b7de"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_1.json"
+hash = "dc073c5377136c39c7fc6d33b4346411394164ea57f47951a7cac3647954fd6a"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_11.json"
+hash = "f479285b6a97fe8dfc4641ae52e16b2a0d6675c4487432ede2dba5aca996bf83"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_12.json"
+hash = "4bb8f51b58852f141a81de52a5d66b698bda0eb7459632001e32c198fd459eef"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_13.json"
+hash = "b0ae8435d08c379571b90e9c9f07f60a5064831067d733808dfa9f87e04ff5c1"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_14.json"
+hash = "47d9967787e552abb0a3dd211c935206c639b082e9379b0f217e3c24dcc69f9d"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_2.json"
+hash = "6564897a7ca93f4bf4a8e25ec6f1dcdd98a2f8c585143b5918ef895c84b1d324"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_21.json"
+hash = "2205b5120574a3eb214287f176e166e14be508bf61efdf4163b7e4a38061ecbe"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_22.json"
+hash = "d1713ee7997ecffddffc56b2e7e425dcd3d3e299015c59e3ef261236c172e485"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_23.json"
+hash = "a63e0285a377fe17e8a812dd73be1c8ea9ac97aa127f8941ae77a877a1918e28"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/apple_oak_leaves_stage_24.json"
+hash = "50706f01ac3249dbbdda7298fb6402201a53952f57791fa4cfa8233162009b93"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/flowering_leaves.json"
+hash = "490f6724014c223357c09603af90ce22d31f28fedb023c631d92d94b69699199"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/flowering_leaves1.json"
+hash = "d8a545df71b4b5ee83318f9cf6cb68bb4b37e3d1e843770a08ea080d2c153469"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/flowering_leaves2.json"
+hash = "333daa49ee8d2ee7a384256e5b315ba218f4816c5639c8deaf2af107e76e1bef"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/flowering_leaves3.json"
+hash = "50e5b2f8492442bd50333aa69ea20be23655590646da068877a48377ebccff81"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/flowering_leaves4.json"
+hash = "c8d21edf471b033bc44e16ab7844ef8bd5bb1b842140204a0a427bb2424d7a7e"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/wisteria_leaves.json"
+hash = "6cd2061a7e5175077964f8c38d38255618e2c518d0f3b0f4b9380fa6cddd8bbc"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/wisteria_leaves1.json"
+hash = "fe55d37660f467fe38b5ce2cfdf6ce04533ed7f1e7141de742414d2dd189ff3d"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/wisteria_leaves2.json"
+hash = "3f7685c6f99ba573f7815c43cf8cbe2bd5fe6efaf161457a62d7f0ea1ac030c2"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/wisteria_leaves3.json"
+hash = "214315818ab23dbc80045aff14790657d03a4b230f100b9c17a84109746c493b"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/models/block/wisteria_leaves4.json"
+hash = "3cbd14912ba2a11fb6a8315bb440574f7d7c677996ea447080abf5a8289eac98"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/textures/block/apple_oak_leaves_stage_0.png"
+hash = "ce93171235f2f9c892e498d40e65d2948f06e28ecb5d354d5150386987b620b2"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/textures/block/apple_oak_leaves_stage_1.png"
+hash = "ea5f0e7aa0b143a1118c52b629b046a0c3e1569c5f64431c3818b8d341500d9c"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/textures/block/apple_oak_leaves_stage_2.png"
+hash = "aa51dc6167c041ff850e04b2483a82670a2afcfc504cfccb27a4062dde0fd9f8"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/assets/regions_unexplored/textures/block/wisteria_leaves.png"
+hash = "23a4b6dee58018ad89828b65dbfa6a2e8131a7be1cf4d9ba8352f53ed6ae71af"
+
+[[files]]
+file = "resourcepacks/vanillaplus-better-leaves-ru/pack.mcmeta"
+hash = "52ab20cb0c1c91b01373f5c83fe39ee3ba67791c7b2f80573a656249b9c90083"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt"

@@ -19,6 +19,14 @@ Our NeoForge 1.21.1 pack: vanilla+ with bigger terrain, cozy stuff, and Create A
 Your own graphics, voice chat and zoom settings won't get overwritten by updates.
 If you just missed an update, restart in a few minutes. GitHub takes a moment to catch up.
 
+## Resource packs
+
+The default resource-pack selection and order live in `config/defaultoptions-common.toml`, including mod-provided packs. Default Options applies this selection once on a fresh install, so it won't overwrite your choices on later launches.
+
+Several packs change the same plants or entities, so pack priority affects which changes are visible. Allure 3D Plants is designed to pair with Allure. Fresh Animations is selected by default; the Minecraft 1.21.1-compatible Better Animations release is available if you prefer it instead. Entity Model Features and Entity Texture Features are included for animation-pack support. Wild Vanilla is not included because its only release uses the newer 1.21.4 resource-pack format.
+
+Leaves use Motschen's Better Leaves, which covers vanilla, Vinery and most Regions Unexplored trees in one style. The small `vanillaplus-better-leaves-ru` pack fills in the Regions Unexplored leaves it misses (wisteria, apple oak, flowering and alpha leaves). It is built with Better Leaves' own generator by `tools/better-leaves-ru/build.py`. Rerun that script after updating Regions Unexplored or Better Leaves.
+
 ## Memory
 
 6 GB is plenty. 4 GB works if you turn off Distant Horizons. Giving it a lot more doesn't help and can make lag spikes worse.

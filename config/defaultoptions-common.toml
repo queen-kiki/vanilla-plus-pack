@@ -1,0 +1,12 @@
+defaultResourcePacks = [
+  "vanilla",
+  "file/FreshAnimations_v1.10.4.zip",
+  "mod_resources",
+  "file/§e§lAllure§r§0.zip",
+  "file/§e§lAllure 3D Plants§r§0.zip",
+  "file/§aReimagined§0_§8[v1.63.5]§0.zip",
+  "file/Better-Leaves-9.6.zip",
+  "file/vanillaplus-better-leaves-ru",
+  "moonlight:merged_pack",
+  "terrain_slabs:better_grass_slabs"
+]

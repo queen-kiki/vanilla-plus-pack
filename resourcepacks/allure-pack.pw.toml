@@ -1,0 +1,13 @@
+name = "Allure"
+filename = "§e§lAllure§r§0.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Al41w13V/versions/RC9TDdLX/%C2%A7e%C2%A7lAllure%C2%A7r%C2%A70.zip"
+hash-format = "sha512"
+hash = "2ff93991bb3f5691e7586225d8fa7bf5d889310577a61372fbc609cca372ed31c25d98693aec76593b8090daa6b01d36378398411017228065e979914c3e4bab"
+
+[update]
+[update.modrinth]
+mod-id = "Al41w13V"
+version = "RC9TDdLX"

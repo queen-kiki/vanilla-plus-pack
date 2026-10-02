@@ -1,0 +1,13 @@
+name = "Better Animations"
+filename = "Better_Animations.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TghJ0CEU/versions/hXMHVzN1/Better_Animations.zip"
+hash-format = "sha512"
+hash = "1fb2ca022535d2ad56875403ef59f6369ae99717c505eee206fdb99c12b8360458c85b63dae220f336b461d5a96e40bea480c93024e88c34a420b8ad25d30fc2"
+
+[update]
+[update.modrinth]
+mod-id = "TghJ0CEU"
+version = "hXMHVzN1"
