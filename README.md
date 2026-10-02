@@ -10,7 +10,7 @@ Fabric 1.21.1 vanilla+ modpack, managed with [packwiz](https://packwiz.infra.lin
 4. **Edit → Settings → Custom commands** → tick *Custom Commands* and set **Pre-launch command** to:
 
    ```
-   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar PACK_URL
+   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/queen-kiki/vanilla-plus-pack/master/pack.toml
    ```
 
 5. Launch. Mods, shaders and configs download automatically and update on every launch.
