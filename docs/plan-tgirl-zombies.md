@@ -40,6 +40,6 @@ Marker + render layer first (spawn a few with a command to see them), then natur
 
 ## Before starting
 
-- The tweaks 2.0.0 work and the trans flag splash are committed but not pushed. Test them in the dev instance first, then push.
+- Pack 2.0.0 (code mod, trans flag splash) is pushed. The spawn raft is the next thing to test in the dev instance.
 - Still on the list: FancyMenu title screen.
 - Later idea: make the spawn raft a real Create Aeronautics raft (a Sable physics sub-level that floats and drifts) instead of the static 3x3 platform. Needs Sable's API for spawning sub-levels; Sable ships an example schematic (`data/sable/schematics/vinalilime.nbt`).
