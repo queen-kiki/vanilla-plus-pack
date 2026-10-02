@@ -1,0 +1,17 @@
+filename = 'floating_tree_decay-fabric-2.0.1.jar'
+name = "Countered's Floating Tree Decay"
+side = 'both'
+
+[download]
+hash = '7a0a1340fc49282edd9e93bec43ac18a5b41a2ddf1965082e568d73f676c0f80d6b02732dbaa7589af6ca4d0284467468a9ea0fa76122af1861d242562508e8d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zgwXuyyY/versions/U4uFutOS/floating_tree_decay-fabric-2.0.1.jar'
+
+[update.modrinth]
+mod-id = 'zgwXuyyY'
+version = 'U4uFutOS'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'

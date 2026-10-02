@@ -1,0 +1,25 @@
+filename = 'resonance-1.4.2-1.21.1.jar'
+name = 'Resonance'
+side = 'both'
+
+[download]
+hash = 'c0aad86c767ad375bcf95ddbbb0a5edb67168d17fdc121a64c1fc6f067a87536e4c4b3af0c8927377a7b7b1b2b9c44a1728a4a4d91e669e388b1c8311f4dfbc3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qUVrTIJe/versions/88zzNwnB/resonance-1.4.2-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'qUVrTIJe'
+version = '88zzNwnB'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5aaWibi9'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'iGEl6Crx'
+type = 'EMBEDDED'

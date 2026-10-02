@@ -1,0 +1,21 @@
+filename = 'fzzy_config-0.7.7+1.21.jar'
+name = 'Fzzy Config'
+side = 'both'
+
+[download]
+hash = 'a194badb7c3ab2f3d3ddbf2b2b101ea086b9d3a494f686ad19ed55622acface8de6568d4077021d4fa3314acf2c9d11df0693e64f2a316307b5c6ae883234e50'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hYykXjDp/versions/zFccjYag/fzzy_config-0.7.7%2B1.21.jar'
+
+[update.modrinth]
+mod-id = 'hYykXjDp'
+version = 'zFccjYag'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ha28R6CL'
+type = 'REQUIRED'

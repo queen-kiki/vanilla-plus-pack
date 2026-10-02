@@ -1,0 +1,21 @@
+filename = 'cynosure-1.0.3-fabric-1.21.1.jar'
+name = 'Cynosure'
+side = 'both'
+
+[download]
+hash = '11d57875851d86bd5ba877a7b613f15b7c4b902c5f906b5b43ab0ae5433b80ea1978edd5052b7ee226972fc02db05b609a9588ecc449ba21748cad674e079ea4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4JVfdODB/versions/iR6GHqMr/cynosure-1.0.3-fabric-1.21.1.jar'
+
+[update.modrinth]
+mod-id = '4JVfdODB'
+version = 'iR6GHqMr'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ha28R6CL'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

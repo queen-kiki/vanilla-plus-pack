@@ -1,0 +1,17 @@
+filename = 'terrestria-7.0.3.jar'
+name = 'Terrestria'
+side = 'both'
+
+[download]
+hash = 'c17c9af5bd8226d6422faf2462761c8257e57a87c88b4e4767206619e1e27d42ce2c3604be5ecff1632e8b1c5bfe0cab36b704439ef5ad78999a68e1bd86fd68'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lsUDPMOT/versions/h7YX7L4K/terrestria-7.0.3.jar'
+
+[update.modrinth]
+mod-id = 'lsUDPMOT'
+version = 'h7YX7L4K'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

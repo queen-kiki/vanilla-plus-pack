@@ -1,0 +1,17 @@
+filename = 'Jade-1.21.1-Fabric-15.10.6.jar'
+name = 'Jade 🔍'
+side = 'both'
+
+[download]
+hash = 'fbae1c796368a09c579dd780a1d510fa5ab73f0eca370ddbfe0a9e6ca162e1b806261577306a259773f309dc4938a839b2065c5eef98b2810855c241addf17f5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nvQzSEkH/versions/adpNvTZS/Jade-1.21.1-Fabric-15.10.6.jar'
+
+[update.modrinth]
+mod-id = 'nvQzSEkH'
+version = 'adpNvTZS'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'

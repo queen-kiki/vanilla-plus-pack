@@ -1,0 +1,17 @@
+filename = 'architectury-13.0.11-fabric.jar'
+name = 'Architectury API'
+side = 'both'
+
+[download]
+hash = '53314eb34890b11ad3c06c6f3ba2d01ae1ca756235ce4f0574e4b0544952a2ab3c628c81b521653d6487d62c5dc3055e06fed6367a3a499bafad909512f0c716'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lhGA9TYQ/versions/Pzc2FP5K/architectury-13.0.11-fabric.jar'
+
+[update.modrinth]
+mod-id = 'lhGA9TYQ'
+version = 'Pzc2FP5K'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

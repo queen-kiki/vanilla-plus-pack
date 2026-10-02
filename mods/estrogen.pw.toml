@@ -1,0 +1,21 @@
+filename = 'estrogen-6.0.10+1.21.1-fabric.jar'
+name = 'Estrogen'
+side = 'both'
+
+[download]
+hash = '6638d3373f955b67e6ec349f416b07afe2ffed190607223ff7c99c71b756a070a80138c2d6a0266b591b46ec150d176b72abbce29577290a7ef88bd9960d92fe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HhIJW8n1/versions/AYcphkJF/estrogen-6.0.10%2B1.21.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'HhIJW8n1'
+version = 'AYcphkJF'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5aaWibi9'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4JVfdODB'
+type = 'REQUIRED'
