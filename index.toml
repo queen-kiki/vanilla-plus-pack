@@ -560,6 +560,16 @@ hash = "a4d103af8a56bb1072c05a49f0e6ac920c6bfb0a79524563886f859de3b9678c"
 metafile = true
 
 [[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "df61e070b0fcc6107a2d8658a075c384c73be446d9fae772e09e6aa59f6a191a"
+metafile = true
+
+[[files]]
+file = "mods/amendments.pw.toml"
+hash = "8a4b226a337d0fc9023d56639a0b34ef2adcd178226ef32d663f6fa4d004a9ed"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "c78a5db4bf3774c56f63b0682ba5420487118db8ae01e95221e03206eea8bd2d"
 metafile = true
@@ -582,6 +592,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "d6c68e0da8daf1d98aebf63d11c88f765714afca0d33e91d22417539ec925826"
+metafile = true
+
+[[files]]
+file = "mods/comforts.pw.toml"
+hash = "0d10973de4466406d116a7c0d976c7c7830e65510ad06b6c83e72b0310e09ad4"
 metafile = true
 
 [[files]]
@@ -612,6 +627,11 @@ metafile = true
 [[files]]
 file = "mods/countereds-terrain-slabs.pw.toml"
 hash = "d545eb31a9828e626526995e4488a6e2999aac4205fcf4d4b49d7d83c9c6dbd5"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "50698f2864218fb8f2ed2723aae955d47d228cf280b619c43fb372b7559d922c"
 metafile = true
 
 [[files]]
@@ -650,8 +670,18 @@ hash = "7cd33718a8881d65c2c72ac49a4253c7204994b2b8039ad20beb125822b6fe57"
 metafile = true
 
 [[files]]
+file = "mods/farmers-delight-refabricated.pw.toml"
+hash = "f2dd3bcc1e38d91445004d43d84ed98f1e6c4c7284f0b91a80ca01129740044a"
+metafile = true
+
+[[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "3128fc13e1df0d58a662db85e718e2192f4acc561ff8eebdd0ea629908ab7fbb"
+metafile = true
+
+[[files]]
+file = "mods/friends-and-foes.pw.toml"
+hash = "4307f143e64fe953798e35a013d87b802fc960cf3609793683505d34e12154bd"
 metafile = true
 
 [[files]]
@@ -670,6 +700,16 @@ hash = "ac8b804ff7eb0d997c8c5bbc64bd666d119772e0e13943aa6b8cd7b6a51500fc"
 metafile = true
 
 [[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "e7a737720192a1ec35fbc8d8061f7373fd0a900806882d43e30511967e9a06d0"
+metafile = true
+
+[[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "2600fb5f2efa6dffd1bcc04eea4c2646c101da4320da0c88d5616d5c2f41a439"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "e5d512334923da705d4696a968d1d4d7ee8f6f519e6fea13c74644a387f96089"
 metafile = true
@@ -685,6 +725,16 @@ hash = "d1fb236f6aff9c7c4c95946daa17248c1086ec8a191001e6e9251979463e205c"
 metafile = true
 
 [[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
+metafile = true
+
+[[files]]
+file = "mods/lets-do-vinery.pw.toml"
+hash = "b8d9c6ea8dc8bafa5097a05dbad37d9c645d5ac6da602b3b653dafd69f25eaae"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "e2b3989d3bfb160e4492963a635f1df96bf6f25feb6ec213e664c8189a60b1e2"
 metafile = true
@@ -697,6 +747,11 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "4fc322eca1f2dd4f8a03a854cf55087e9b8545141df4baf4605599143dec5581"
+metafile = true
+
+[[files]]
+file = "mods/moonlight.pw.toml"
+hash = "d80de4bdb63f892a06eeca7f54881020f77a23807454577ab085798941110f81"
 metafile = true
 
 [[files]]
@@ -725,6 +780,11 @@ hash = "7f8e1a09209c981c082b6a0437faab8a81bcf447bf141cae53e2d78e891560d4"
 metafile = true
 
 [[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "d3f633dd12cd039a4e58dd398d1c80a324b0d78b9da5b3972b69640bfed211ed"
+metafile = true
+
+[[files]]
 file = "mods/respawning-animals.pw.toml"
 hash = "2e07c0a40c38a4c365925efeee2106e77825d91bbeeb5aa683f648e381d1ff19"
 metafile = true
@@ -732,6 +792,11 @@ metafile = true
 [[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "70421afb3bbd36b6371e560f4cef7fd452f46b23d2bbaad4ff4ce2e073a4efb9"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "2906fd64b454760ba0eb835e00a00a7d60c9b03ba0af12b219234a44cf29df19"
 metafile = true
 
 [[files]]
@@ -752,6 +817,11 @@ metafile = true
 [[files]]
 file = "mods/subtle-effects.pw.toml"
 hash = "2f0ffaccd44ed7d6c0738faea63a0f22dedb01691296cab97ec9f3003300601f"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "100b417ff1e93686ce9ba92c26f292bfebba401d92838ed8ec2dfc5e7567505f"
 metafile = true
 
 [[files]]
