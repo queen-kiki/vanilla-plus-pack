@@ -476,6 +476,10 @@ file = "config/subtle_effects/items.toml"
 hash = "0955be893f8ba0a742ad4966dbe21e794e69c7b4235b63923dc9839865effdab"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "75788c0b91eb5cd2dc2170b9f5c421e22f1121f16b7729783d14b84fee64adcd"
+
+[[files]]
 file = "config/terrain_slabs.json"
 hash = "e04586d7dc58c806eb2d71eff53458bc56fe8e5d88675a710783bab85124fee3"
 
@@ -686,6 +690,11 @@ hash = "e2b3989d3bfb160e4492963a635f1df96bf6f25feb6ec213e664c8189a60b1e2"
 metafile = true
 
 [[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "9125501fc8cb9b72e3ef08310dc9e172031c0d37ca76e4c2fb948939d8a8c23b"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "4fc322eca1f2dd4f8a03a854cf55087e9b8545141df4baf4605599143dec5581"
 metafile = true
@@ -743,6 +752,11 @@ metafile = true
 [[files]]
 file = "mods/subtle-effects.pw.toml"
 hash = "2f0ffaccd44ed7d6c0738faea63a0f22dedb01691296cab97ec9f3003300601f"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "f1bfac1c5060b9e0ec9166de25bce8305d16dee48fb31583380567c37ee6b349"
 metafile = true
 
 [[files]]
