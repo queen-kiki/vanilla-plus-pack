@@ -7,5 +7,10 @@
     "MidnightConfigMixin",
     "DimensionPhysicsDataMixin"
   ],
-  "injectors": { "defaultRequire": 0 }
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "client": [
+    "client.SplashManagerMixin"
+  ]
 }
