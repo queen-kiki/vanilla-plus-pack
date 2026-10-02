@@ -3,8 +3,7 @@ disableConfigWatcher = false
 #Should we control the window. Disabling this disables new GL features and can be bad for mods that rely on them.
 earlyWindowControl = true
 #Max threads for early initialization parallelism, -1 is based on processor count
-#Vanilla Plus: 1 avoids a MidnightLib race (ConcurrentModificationException) when Countered's mods construct in parallel
-maxThreads = 1
+maxThreads = -1
 #Enable NeoForge global version checking
 versionCheck = true
 #Default config path for servers

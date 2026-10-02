@@ -74,4 +74,4 @@ git commit -am "..." && git push
 
 The "Vanilla Plus (dev)" instance in Prism installs straight from this folder through `dev-sync.cmd`, so you can try changes before pushing them.
 
-`tweaks-src/` is the source of our own little mod, `mods/vanillaplus-tweaks.jar`. Rebuild it with `python tweaks-src/build.py`.
+`tweaks/` is the source of our own mod, `mods/vanillaplus-tweaks.jar` (oxygen up high, seasonal airship lift, the altitude readout, autumn harvests, the advancement tab and so on). Rebuild it with `gradlew install` inside `tweaks/` (needs a Java 21+ JDK; Prism's bundled Java works). The pack version shown in-game comes from `pack.toml`, so rebuild after changing it.

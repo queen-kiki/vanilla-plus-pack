@@ -1,0 +1,55 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+version = mod_version
+group = mod_group_id
+base { archivesName = 'vanillaplus-tweaks' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    // Other mods' jars, straight from Modrinth (compile-only, never bundled)
+    exclusiveContent {
+        forRepository { maven { url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+}
+
+neoForge {
+    version = project.neo_version
+    parchment {
+        mappingsVersion = project.parchment_mappings_version
+        minecraftVersion = project.parchment_minecraft_version
+    }
+    mods {
+        "${mod_id}" { sourceSet(sourceSets.main) }
+    }
+}
+
+dependencies {
+    // Compile against these, but don't bundle them: they're separate mods in the pack.
+    compileOnly 'maven.modrinth:sable:U678xqle'           // Sable 2.0.5 (airship physics)
+    compileOnly 'maven.modrinth:serene-seasons:pHEgQQUE'  // Serene Seasons
+}
+
+var generateModMetadata = tasks.register('generateModMetadata', ProcessResources) {
+    // The pack version (from ../pack.toml) is baked into the jar for the title screen and F3
+    var packVersion = (rootProject.file('../pack.toml').text =~ /(?m)^version = "([^"]+)"/)[0][1]
+    var props = [pack_version: packVersion, minecraft_version_range: minecraft_version_range, neo_version: neo_version,
+                 loader_version_range: loader_version_range, mod_id: mod_id, mod_name: mod_name,
+                 mod_license: mod_license, mod_version: mod_version]
+    inputs.properties props
+    expand props
+    from 'src/main/templates'
+    into 'build/generated/sources/modMetadata'
+}
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+// `gradlew install` builds the jar and drops it into the pack's mods folder
+tasks.register('install', Copy) {
+    from tasks.named('jar')
+    into rootProject.file('../mods')
+    rename { 'vanillaplus-tweaks.jar' }
+}

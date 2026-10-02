@@ -17,5 +17,8 @@
     "0": {
       "trigger": "minecraft:tick"
     }
+  },
+  "rewards": {
+    "function": "vanillaplus:welcome"
   }
 }

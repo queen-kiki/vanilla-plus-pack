@@ -45,7 +45,7 @@ hash = "8d5385ce9f9af3458c877db2ee7bf73230202c24870dece6b7e97e344fb8dfc1"
 
 [[files]]
 file = "config/fml.toml"
-hash = "d29dcc32605065ff0b4b4563e9b41806c0cf21b30b1760ab386ab0f5fc045d11"
+hash = "fb9747a960cbeb2f6b2638c922aa532a5748b75d68524ff6d0d684d8f58a58f3"
 
 [[files]]
 file = "config/forgeconfigapiport.toml"
@@ -882,7 +882,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillaplus-tweaks.jar"
-hash = "311e20c761a22ae39500dbded2088903f57bb78ce21f5444703d2bd157a2fc65"
+hash = "55b209fbf888467b21f557586ebfdd95f6b7ace0f26f75283aba0829996af7b4"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt"

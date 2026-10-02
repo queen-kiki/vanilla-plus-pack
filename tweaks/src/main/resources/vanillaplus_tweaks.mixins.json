@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "dev.vanillaplus.tweaks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MidnightConfigMixin",
+    "DimensionPhysicsDataMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}

@@ -1,0 +1,5 @@
+# Given once, on a player's first join (reward of the vanillaplus:root advancement)
+give @s sereneseasons:calendar
+give @s minecraft:map 2
+give @s minecraft:book
+give @s minecraft:written_book[minecraft:written_book_content={title:"Vanilla Plus",author:"the pack",pages:['"Welcome!\\n\\nThe world is twice as big as usual: mountains reach past Y 500 and the clouds sit at Y 320.\\n\\nPress L and open the Vanilla Plus tab for a little tour."','"Seasons\\n\\nCrops do best in their own season, and autumn harvests sometimes drop extra. The calendar shows the date.\\n\\nThe tropics get wet and dry seasons instead of winter."','"Maps\\n\\nCraft an atlas from a filled map, a book and a slime ball (or honey bottle). It works as a minimap: M opens it, B places a pin."','"Up high\\n\\nAbove Y 450 the air gets thin and you run out of breath. A Create diving helmet with a filled backtank keeps you breathing.\\n\\nAirships lift better in cold weather."','"Keys\\n\\nK: shaders\\nCaps Lock: push to talk\\nC: zoom\\nR / U: recipes and uses\\nHold W: Create tutorial\\n\\nHave fun!"']}]

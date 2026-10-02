@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:crops",
+      "required": false
+    },
+    {
+      "id": "vinery:red_grape",
+      "required": false
+    },
+    {
+      "id": "vinery:white_grape",
+      "required": false
+    },
+    {
+      "id": "vinery:savanna_grapes_red",
+      "required": false
+    },
+    {
+      "id": "vinery:savanna_grapes_white",
+      "required": false
+    },
+    {
+      "id": "vinery:taiga_grapes_red",
+      "required": false
+    },
+    {
+      "id": "vinery:taiga_grapes_white",
+      "required": false
+    },
+    {
+      "id": "vinery:jungle_grapes_red",
+      "required": false
+    },
+    {
+      "id": "vinery:jungle_grapes_white",
+      "required": false
+    }
+  ]
+}
