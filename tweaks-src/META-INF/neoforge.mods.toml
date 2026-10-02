@@ -1,0 +1,9 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "vanillaplus_tweaks"
+version = "1.0.0"
+displayName = "Vanilla Plus Tweaks"
+description = "Data-only glue for the Vanilla Plus pack: Serene Seasons tags for Vinery grapes."

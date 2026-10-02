@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "vinery:red_grape_bush",
+      "required": false
+    },
+    {
+      "id": "vinery:white_grape_bush",
+      "required": false
+    },
+    {
+      "id": "vinery:savanna_grape_bush_red",
+      "required": false
+    },
+    {
+      "id": "vinery:savanna_grape_bush_white",
+      "required": false
+    },
+    {
+      "id": "vinery:taiga_grape_bush_red",
+      "required": false
+    },
+    {
+      "id": "vinery:taiga_grape_bush_white",
+      "required": false
+    },
+    {
+      "id": "vinery:jungle_grape_bush_red",
+      "required": false
+    },
+    {
+      "id": "vinery:jungle_grape_bush_white",
+      "required": false
+    },
+    {
+      "id": "vinery:grapevine_stem",
+      "required": false
+    }
+  ]
+}

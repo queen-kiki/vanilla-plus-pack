@@ -1,3 +1,4 @@
 # packwiz-installer test/output folders
 *.jar
 *.zip
+!mods/vanillaplus-tweaks.jar
