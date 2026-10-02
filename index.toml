@@ -123,6 +123,10 @@ hash = "2d75ca7461d7bc35dd6b33a5ced91bf0a121ffb20518b01f9f97349d3c62a8eb"
 preserve = true
 
 [[files]]
+file = "config/regions_unexplored/common.json"
+hash = "739389433f0e6a767d32faac14a717e5d4f1fdc9506d779c512e0ad8bbf15eaa"
+
+[[files]]
 file = "config/roadweaver/presets/aged_stone.json"
 hash = "a67e030b1886170d85aa3dfb4c00699638be1ec82661dc8916fcd3887a587dba"
 
