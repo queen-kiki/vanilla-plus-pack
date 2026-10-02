@@ -11,3 +11,8 @@ hash = "efaf415d9dad768ac9b3893973349db65d7848b42d99952e82dbd1b0e66163ba09cfc223
 [update.modrinth]
 mod-id = "4q8UOK1d"
 version = "s3Fo4cDk"
+
+[option]
+optional = true
+default = true
+description = "Small visual effects (steam, sparks, breath in the cold)."

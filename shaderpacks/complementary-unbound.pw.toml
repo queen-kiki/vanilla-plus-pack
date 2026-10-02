@@ -11,3 +11,8 @@ url = 'https://cdn.modrinth.com/data/R6NEzAwj/versions/B1kyfoUZ/ComplementaryUnb
 [update.modrinth]
 mod-id = 'R6NEzAwj'
 version = 'B1kyfoUZ'
+
+[option]
+optional = true
+default = true
+description = "Complementary Unbound shaderpack (only used if Iris is installed)."

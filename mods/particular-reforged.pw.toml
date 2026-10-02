@@ -11,3 +11,8 @@ hash = "11b73aa3782159950d09fcf7ffaabb97cb4697ba645a5b8c6c82a0c8f07bc0bba7e43a43
 [update.modrinth]
 mod-id = "pYFUU6cq"
 version = "WyRBAcBf"
+
+[option]
+optional = true
+default = true
+description = "Extra ambient particles (falling leaves, fireflies, waterfall spray)."

@@ -11,3 +11,8 @@ hash = "7e9dc419e407d5722c884491a67d2239dd05b9dcbeb4e365384b7cc7d9a6a1fb2d13759a
 [update.modrinth]
 mod-id = "fM515JnW"
 version = "Q7ssSC2X"
+
+[option]
+optional = true
+default = true
+description = "Ambient nature sounds (wind, birds, crickets)."

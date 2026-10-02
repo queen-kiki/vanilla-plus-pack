@@ -1,6 +1,0 @@
-{
-  "decaySpeed": 1.0,
-  "ticksUntilDecay": 2,
-  "maxTreeSize": 200,
-  "existingWorldCompat": false
-}

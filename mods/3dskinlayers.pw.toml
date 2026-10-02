@@ -11,3 +11,8 @@ hash = "7bf3064d6cd43b2991d7e51d9dd2a3f27c74cab6bbde80c7aa1fffe06a7935ef0b407b05
 [update.modrinth]
 mod-id = "zV5r3pPn"
 version = "5s6lxsQW"
+
+[option]
+optional = true
+default = true
+description = "Renders the outer skin layer in 3D."

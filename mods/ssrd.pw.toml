@@ -11,3 +11,8 @@ hash = "fb09bb6799f2f9d8b051bc87920a49ee68319c358d0d23be5beaea444542be8336a52f71
 [update.modrinth]
 mod-id = "fJ183v3D"
 version = "iZflRKdV"
+
+[option]
+optional = true
+default = true
+description = "Shows airships at Distant Horizons range. Only useful with Distant Horizons."
