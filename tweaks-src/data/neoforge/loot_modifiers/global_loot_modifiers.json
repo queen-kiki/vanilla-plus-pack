@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "entries": [
+    "vanillaplus:village_extra_village_plains_house",
+    "vanillaplus:village_extra_village_taiga_house",
+    "vanillaplus:village_extra_village_savanna_house",
+    "vanillaplus:village_extra_village_snowy_house",
+    "vanillaplus:village_extra_village_desert_house",
+    "vanillaplus:shipwreck_extra_shipwreck_supply",
+    "vanillaplus:shipwreck_extra_shipwreck_treasure"
+  ]
+}

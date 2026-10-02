@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "vinery:red_wine"
+    },
+    "title": {
+      "text": "Fine Vintage"
+    },
+    "description": {
+      "text": "Ferment your first wine"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vinery:red_wine",
+              "vinery:noir_wine",
+              "vinery:cherry_wine",
+              "vinery:apple_wine",
+              "vinery:apple_cider",
+              "vinery:kelp_cider",
+              "vinery:chorus_wine",
+              "vinery:glowing_wine",
+              "vinery:magnetic_wine",
+              "vinery:solaris_wine",
+              "vinery:mellohi_wine",
+              "vinery:aegis_wine",
+              "vinery:bolvar_wine",
+              "vinery:chenet_wine",
+              "vinery:clark_wine",
+              "vinery:cristel_wine",
+              "vinery:jellie_wine",
+              "vinery:lilitu_wine",
+              "vinery:stal_wine",
+              "vinery:strad_wine",
+              "vinery:bottle_mojang_noir"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "vanillaplus:juice"
+}

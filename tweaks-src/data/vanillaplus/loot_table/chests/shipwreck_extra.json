@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aeronautics:andesite_propeller",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aeronautics:aviators_goggles",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aeronautics:music_disc_cloud_skipper",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 12
+        }
+      ]
+    }
+  ]
+}

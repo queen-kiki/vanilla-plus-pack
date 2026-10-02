@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "regions_unexplored:kapok_planks",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_log",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_wood",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_log",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_kapok_wood",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_slab",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_stairs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_fence",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_fence_gate",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_door",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_trapdoor",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:kapok_button",
+      "required": false
+    }
+  ]
+}

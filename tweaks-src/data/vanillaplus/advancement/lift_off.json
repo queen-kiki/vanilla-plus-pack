@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "aeronautics:white_envelope"
+    },
+    "title": {
+      "text": "Lift Off"
+    },
+    "description": {
+      "text": "Fill an envelope with hot air"
+    }
+  },
+  "criteria": {
+    "0": {
+      "trigger": "aeronautics:head_in_the_clouds_builtin",
+      "conditions": "aeronautics:head_in_the_clouds_builtin"
+    }
+  },
+  "parent": "vanillaplus:root"
+}

@@ -882,7 +882,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillaplus-tweaks.jar"
-hash = "4b3ae0b1fa53536d758ad1f017cc348f12298d939d3b3f0df59de4f623200b78"
+hash = "311e20c761a22ae39500dbded2088903f57bb78ce21f5444703d2bd157a2fc65"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt"

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "vinery:red_grape"
+    },
+    "title": {
+      "text": "Grape Expectations"
+    },
+    "description": {
+      "text": "Pick some grapes"
+    }
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vinery:red_grape",
+              "vinery:white_grape",
+              "vinery:savanna_grapes_red",
+              "vinery:savanna_grapes_white",
+              "vinery:taiga_grapes_red",
+              "vinery:taiga_grapes_white",
+              "vinery:jungle_grapes_red",
+              "vinery:jungle_grapes_white"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "vanillaplus:root"
+}

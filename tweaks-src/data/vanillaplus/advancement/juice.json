@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "vinery:red_grapejuice"
+    },
+    "title": {
+      "text": "Under Pressure"
+    },
+    "description": {
+      "text": "Get grape juice, by stomping or with a Create press"
+    }
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vinery:red_grapejuice",
+              "vinery:white_grapejuice",
+              "vinery:red_savanna_grapejuice",
+              "vinery:white_savanna_grapejuice",
+              "vinery:red_taiga_grapejuice",
+              "vinery:white_taiga_grapejuice",
+              "vinery:red_jungle_grapejuice",
+              "vinery:white_jungle_grapejuice"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "vanillaplus:grapes"
+}

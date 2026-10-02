@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "sereneseasons:calendar"
+    },
+    "title": {
+      "text": "Seasoned"
+    },
+    "description": {
+      "text": "Make a calendar to keep track of the seasons"
+    }
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "sereneseasons:calendar"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "vanillaplus:root"
+}

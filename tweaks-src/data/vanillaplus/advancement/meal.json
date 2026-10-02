@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "farmersdelight:beef_stew"
+    },
+    "title": {
+      "text": "Home Cooking"
+    },
+    "description": {
+      "text": "Cook a proper meal"
+    }
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#farmersdelight:meals"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "vanillaplus:root"
+}

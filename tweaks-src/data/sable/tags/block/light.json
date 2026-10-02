@@ -1,0 +1,189 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#handcrafted:chairs",
+      "required": false
+    },
+    {
+      "id": "#handcrafted:couches",
+      "required": false
+    },
+    {
+      "id": "#handcrafted:cushions",
+      "required": false
+    },
+    {
+      "id": "#handcrafted:benches",
+      "required": false
+    },
+    {
+      "id": "#handcrafted:dining_benches",
+      "required": false
+    },
+    {
+      "id": "#handcrafted:side_tables",
+      "required": false
+    },
+    {
+      "id": "#handcrafted:desks",
+      "required": false
+    },
+    {
+      "id": "#handcrafted:nightstands",
+      "required": false
+    },
+    {
+      "id": "#handcrafted:shelves",
+      "required": false
+    },
+    {
+      "id": "#handcrafted:fancy_beds",
+      "required": false
+    },
+    {
+      "id": "#interiors:chairs",
+      "required": false
+    },
+    {
+      "id": "#interiors:floor_chairs",
+      "required": false
+    },
+    {
+      "id": "#supplementaries:flags",
+      "required": false
+    },
+    {
+      "id": "#supplementaries:buntings",
+      "required": false
+    },
+    {
+      "id": "#supplementaries:awnings",
+      "required": false
+    },
+    {
+      "id": "supplementaries:rope",
+      "required": false
+    },
+    {
+      "id": "vinery:oak_wine_rack_big",
+      "required": false
+    },
+    {
+      "id": "vinery:oak_wine_rack_mid",
+      "required": false
+    },
+    {
+      "id": "vinery:oak_wine_rack_small",
+      "required": false
+    },
+    {
+      "id": "vinery:spruce_wine_rack_big",
+      "required": false
+    },
+    {
+      "id": "vinery:spruce_wine_rack_mid",
+      "required": false
+    },
+    {
+      "id": "vinery:spruce_wine_rack_small",
+      "required": false
+    },
+    {
+      "id": "vinery:birch_wine_rack_big",
+      "required": false
+    },
+    {
+      "id": "vinery:birch_wine_rack_mid",
+      "required": false
+    },
+    {
+      "id": "vinery:birch_wine_rack_small",
+      "required": false
+    },
+    {
+      "id": "vinery:jungle_wine_rack_big",
+      "required": false
+    },
+    {
+      "id": "vinery:jungle_wine_rack_mid",
+      "required": false
+    },
+    {
+      "id": "vinery:jungle_wine_rack_small",
+      "required": false
+    },
+    {
+      "id": "vinery:acacia_wine_rack_big",
+      "required": false
+    },
+    {
+      "id": "vinery:acacia_wine_rack_mid",
+      "required": false
+    },
+    {
+      "id": "vinery:acacia_wine_rack_small",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_oak_wine_rack_big",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_oak_wine_rack_mid",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_oak_wine_rack_small",
+      "required": false
+    },
+    {
+      "id": "vinery:mangrove_wine_rack_big",
+      "required": false
+    },
+    {
+      "id": "vinery:mangrove_wine_rack_mid",
+      "required": false
+    },
+    {
+      "id": "vinery:mangrove_wine_rack_small",
+      "required": false
+    },
+    {
+      "id": "vinery:cherry_wine_rack_big",
+      "required": false
+    },
+    {
+      "id": "vinery:cherry_wine_rack_mid",
+      "required": false
+    },
+    {
+      "id": "vinery:cherry_wine_rack_small",
+      "required": false
+    },
+    {
+      "id": "vinery:bamboo_wine_rack_big",
+      "required": false
+    },
+    {
+      "id": "vinery:bamboo_wine_rack_mid",
+      "required": false
+    },
+    {
+      "id": "vinery:bamboo_wine_rack_small",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_wine_rack_big",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_wine_rack_mid",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_wine_rack_small",
+      "required": false
+    }
+  ]
+}
