@@ -1,13 +1,13 @@
 name = "[Let's Do] Vinery"
-filename = "letsdo-vinery-fabric-1.5.4.jar"
+filename = "letsdo-vinery-neoforge-1.5.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1DWmBJVA/versions/zump1BXr/letsdo-vinery-fabric-1.5.4.jar"
+url = "https://cdn.modrinth.com/data/1DWmBJVA/versions/lbCQKzNt/letsdo-vinery-neoforge-1.5.4.jar"
 hash-format = "sha512"
-hash = "e7772cb245b14f028876261272e657aab21c8b054f5daf744f04dc5fe102c32c8dffac21485fbb205f61c3212abb92a43e7d2bf68125e31cf3b546ea9b3c69c4"
+hash = "9abcd2dc17da92aea108d865ca51cbf256683a1130c4dc2f16de8903725d30216b5a8d040191263a1ede0aa2742b292e82f8dc8812b906acd1f850de095253d0"
 
 [update]
 [update.modrinth]
 mod-id = "1DWmBJVA"
-version = "zump1BXr"
+version = "lbCQKzNt"

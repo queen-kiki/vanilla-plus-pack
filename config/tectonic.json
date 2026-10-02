@@ -9,7 +9,7 @@
   },
   "caves": {
     // Whether old caves/ravines should generate. Game restart required!
-    "carvers_enabled": true,
+    "carvers_enabled": false,
     // Density added to cheese caves. Lower values = bigger cheese caves.
     "cheese_additive": 0.27,
     // The standard expansive, large cheese-shaped caves.

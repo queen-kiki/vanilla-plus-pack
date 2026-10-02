@@ -1,21 +1,13 @@
-filename = 'cynosure-1.0.3-fabric-1.21.1.jar'
-name = 'Cynosure'
-side = 'both'
+name = "Cynosure"
+filename = "cynosure-1.0.3-neoforge-1.21.1.jar"
+side = "both"
 
 [download]
-hash = '11d57875851d86bd5ba877a7b613f15b7c4b902c5f906b5b43ab0ae5433b80ea1978edd5052b7ee226972fc02db05b609a9588ecc449ba21748cad674e079ea4'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/4JVfdODB/versions/iR6GHqMr/cynosure-1.0.3-fabric-1.21.1.jar'
+url = "https://cdn.modrinth.com/data/4JVfdODB/versions/lpFSq579/cynosure-1.0.3-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "4a00a8031a47fd1ab76f04fbc6cda4a512c87571e7adf80d548f1733952ae8df172dba0ab88af3395bcb0772283b766b5d639386279cb2fbd3519beeefca8f04"
 
+[update]
 [update.modrinth]
-mod-id = '4JVfdODB'
-version = 'iR6GHqMr'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'Ha28R6CL'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
+mod-id = "4JVfdODB"
+version = "lpFSq579"

@@ -1,17 +1,13 @@
-filename = 'smooth_steps-fabric-1.1.0.jar'
 name = "Countered's Smooth Steps"
-side = 'client'
+filename = "smooth_steps-neoforge-1.1.0.jar"
+side = "client"
 
 [download]
-hash = 'b25061ed7fcb3825aad3e1e82ac319b77709bd8b3417d20d61a73e6c416916e51096cf694a2f8be0bfd3a9fe260b1df5b239b132eb44d48a7e6f90fe112e645a'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/5VSZqDK0/versions/YcwNX8B8/smooth_steps-fabric-1.1.0.jar'
+url = "https://cdn.modrinth.com/data/5VSZqDK0/versions/fO1PtlIv/smooth_steps-neoforge-1.1.0.jar"
+hash-format = "sha512"
+hash = "c3159a803255ecd2dbe3ae3d15b2d5e42d5678fa12d2145056324b9bc9963013f266748857b1e20d387b573835bcd41a189a7bd143747ce77aa36125486feaaa"
 
+[update]
 [update.modrinth]
-mod-id = '5VSZqDK0'
-version = 'YcwNX8B8'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'lhGA9TYQ'
-type = 'REQUIRED'
+mod-id = "5VSZqDK0"
+version = "fO1PtlIv"

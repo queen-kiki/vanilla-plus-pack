@@ -1,21 +1,13 @@
-filename = 'estrogen-6.0.10+1.21.1-fabric.jar'
-name = 'Estrogen'
-side = 'both'
+name = "Estrogen"
+filename = "estrogen-6.0.10+1.21.1-neoforge.jar"
+side = "both"
 
 [download]
-hash = '6638d3373f955b67e6ec349f416b07afe2ffed190607223ff7c99c71b756a070a80138c2d6a0266b591b46ec150d176b72abbce29577290a7ef88bd9960d92fe'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/HhIJW8n1/versions/AYcphkJF/estrogen-6.0.10%2B1.21.1-fabric.jar'
+url = "https://cdn.modrinth.com/data/HhIJW8n1/versions/jLNES5cw/estrogen-6.0.10%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "47477936cf51fb1cd55f3603ecd36c14c3295284fdccc5f6587581bfd49abff7f4ff7c45dcadf0e4f3eb5d966ac8e2a41fdcf4722e3540d189cd4ecdc244dfe3"
 
+[update]
 [update.modrinth]
-mod-id = 'HhIJW8n1'
-version = 'AYcphkJF'
-
-[[x-prismlauncher-dependencies]]
-addonId = '5aaWibi9'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '4JVfdODB'
-type = 'REQUIRED'
+mod-id = "HhIJW8n1"
+version = "jLNES5cw"

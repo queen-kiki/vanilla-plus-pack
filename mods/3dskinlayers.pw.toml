@@ -1,17 +1,13 @@
-filename = 'skinlayers3d-fabric-1.11.3-mc1.21.1.jar'
-name = '3D Skin Layers'
-side = 'client'
+name = "3D Skin Layers"
+filename = "skinlayers3d-neoforge-1.11.3-mc1.21.1.jar"
+side = "client"
 
 [download]
-hash = '3545279e6e1787d85e9d12fd888b8b6caebf1a12b4c6904436dec2196c2c9e5a4ee2c20cea5dd3a3a2546fdd64b2787c63ea540c0578ede05a53f363ed3e3265'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/zV5r3pPn/versions/L1pQ9OzF/skinlayers3d-fabric-1.11.3-mc1.21.1.jar'
+url = "https://cdn.modrinth.com/data/zV5r3pPn/versions/5s6lxsQW/skinlayers3d-neoforge-1.11.3-mc1.21.1.jar"
+hash-format = "sha512"
+hash = "7bf3064d6cd43b2991d7e51d9dd2a3f27c74cab6bbde80c7aa1fffe06a7935ef0b407b0514d789519f64e825ded71953e08c14f0b6aa530c5223d126d9b03912"
 
+[update]
 [update.modrinth]
-mod-id = 'zV5r3pPn'
-version = 'L1pQ9OzF'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
+mod-id = "zV5r3pPn"
+version = "5s6lxsQW"

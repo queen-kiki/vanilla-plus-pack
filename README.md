@@ -1,11 +1,11 @@
 # Vanilla Plus
 
-Fabric 1.21.1 vanilla+ modpack, managed with [packwiz](https://packwiz.infra.link/).
+NeoForge 1.21.1 vanilla+ modpack (with Create Aeronautics), managed with [packwiz](https://packwiz.infra.link/).
 
 ## Installing (Prism Launcher)
 
 1. Download [packwiz-installer-bootstrap.jar](https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar).
-2. In Prism: **Add Instance** → Minecraft **1.21.1**, then **Edit → Version → Install Loader → Fabric 0.19.5**.
+2. In Prism: **Add Instance** → Minecraft **1.21.1**, then **Edit → Version → Install Loader → NeoForge 21.1.252**.
 3. Open the instance folder and put `packwiz-installer-bootstrap.jar` in the `minecraft` folder (create it if missing).
 4. **Edit → Settings → Custom commands** → tick *Custom Commands* and set **Pre-launch command** to:
 

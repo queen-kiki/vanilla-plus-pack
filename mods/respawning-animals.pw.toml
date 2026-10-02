@@ -1,29 +1,13 @@
-filename = 'RespawningAnimals-v21.1.2-1.21.1-Fabric.jar'
-name = 'Respawning Animals'
-side = 'both'
+name = "Respawning Animals"
+filename = "RespawningAnimals-v21.1.2-1.21.1-NeoForge.jar"
+side = "both"
 
 [download]
-hash = 'deee22d587964751b111ae9c4d7bf56b25b929efa502377d3ffd37d001c39a3e939aaa0fa000e957860eb71aea0c3119fadf8cea98b32bd1a3e4ea6e9481aef5'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/WnwcSeWc/versions/p6ShFU9y/RespawningAnimals-v21.1.2-1.21.1-Fabric.jar'
+url = "https://cdn.modrinth.com/data/WnwcSeWc/versions/a7lvPWaQ/RespawningAnimals-v21.1.2-1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "a92bbcc81a4b2e127dd26e3ea3d0c70b64b8155682808cb56e8c5669f536c0e3ec3ca45a2b6be567d8ed35ddadcadbf183bb79b2e486f501dd6b65dd82c4cbb5"
 
+[update]
 [update.modrinth]
-mod-id = 'WnwcSeWc'
-version = 'p6ShFU9y'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'ohNO6lps'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'QAGBst4M'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '5WeWGLoJ'
-type = 'OPTIONAL'
+mod-id = "WnwcSeWc"
+version = "a7lvPWaQ"
