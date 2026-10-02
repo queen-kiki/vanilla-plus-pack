@@ -43,3 +43,10 @@ Marker + render layer first (spawn a few with a command to see them), then natur
 - Pack 2.0.0 (code mod, trans flag splash) is pushed. The spawn raft is the next thing to test in the dev instance.
 - Still on the list: FancyMenu title screen.
 - Later idea: make the spawn raft a real Create Aeronautics raft (a Sable physics sub-level that floats and drifts) instead of the static 3x3 platform. Needs Sable's API for spawning sub-levels; Sable ships an example schematic (`data/sable/schematics/vinalilime.nbt`).
+
+## Sable notes (physics raft, weather)
+
+- `SubLevelAssemblyHelper.assembleBlocks(ServerLevel, BlockPos anchor, Iterable<BlockPos>, BoundingBox3ic)` turns placed blocks into a physics structure. `BoundingBox3i` lives in Sable's bundled `sable-companion-common` jar, which isn't on our compile classpath yet (needs extracting from Sable's jarjar in Gradle).
+- Neither Sable nor Aeronautics has water buoyancy: an assembled raft would sink. Options: our own buoyancy (apply upward force per submerged block in a `SablePrePhysicsTickEvent`), or the add-on Create: Deep Seas (3.1.0 for NeoForge 1.21.1, ARR, says Iris is "not recommended" because of Veil lighting, which clashes with our shaders).
+- Other useful API: `RigidBodyHandle` impulses, `ForceGroups` (LIFT, DRAG, PROPULSION...), constraints with motors, `BoxPhysicsObject`, `RopePhysicsObject`.
+- Weather idea: coarse 2D Navier-Stokes (stable fluids) wind field on the server, driven by season/biome temperature, applied to airships through a pre-physics force. Not designed yet.
