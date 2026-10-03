@@ -5,7 +5,11 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "MidnightConfigMixin",
-    "DimensionPhysicsDataMixin"
+    "DimensionPhysicsDataMixin",
+    "MultiNoiseBiomeSourceMixin",
+    "InjectorBiomeSourceMixin",
+    "TreeFeatureMixin",
+    "TrunkPlacerAccessor"
   ],
   "injectors": {
     "defaultRequire": 0

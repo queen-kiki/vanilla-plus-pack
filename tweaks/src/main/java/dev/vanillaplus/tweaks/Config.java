@@ -20,6 +20,24 @@ public final class Config {
             .defineInRange("fullRateY", 550, -64, 2048);
 
     static {
+        BUILDER.pop().push("alpine");
+    }
+
+    public static final ModConfigSpec.BooleanValue ALPINE_ENABLED = BUILDER
+            .comment("High up in the overworld, biomes turn alpine: meadows and snowy slopes above the treeline, bare peaks above that.",
+                    "Only affects newly generated chunks.")
+            .define("enabled", true);
+    public static final ModConfigSpec.IntValue TREELINE_COLD_Y = BUILDER
+            .comment("Treeline in the coldest climates.")
+            .defineInRange("treelineColdY", 175, -64, 2048);
+    public static final ModConfigSpec.IntValue TREELINE_HOT_Y = BUILDER
+            .comment("Treeline in the hottest climates. Climates in between get a height in between.")
+            .defineInRange("treelineHotY", 305, -64, 2048);
+    public static final ModConfigSpec.IntValue PEAKS_ABOVE_TREELINE = BUILDER
+            .comment("How far above the treeline the bare peaks start.")
+            .defineInRange("peaksAboveTreeline", 48, 0, 1024);
+
+    static {
         BUILDER.pop().push("airships");
     }
 

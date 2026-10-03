@@ -468,7 +468,7 @@ hash = "0955be893f8ba0a742ad4966dbe21e794e69c7b4235b63923dc9839865effdab"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "3e563baff37ad36260fda166af00d29fa56acf877d0d3323d15ee0f66377e7a8"
+hash = "61519dd8545368ab79265adbb4d41c5f9d50f45cba7d6a6c01a7c90086f33ff0"
 
 [[files]]
 file = "config/terrain_slabs.json"
@@ -900,7 +900,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillaplus-tweaks.jar"
-hash = "1e1f282f7d531dbcef34ec8de3a6fd10f2de03288ee61c0e5ef2f2db1c93c96e"
+hash = "1784a5220f7c566bc36dcd8edefa8a0cc313385f33b072f56c0d3ec8fabc7f9e"
 
 [[files]]
 file = "resourcepacks/allure-3d-plants.pw.toml"
