@@ -54,9 +54,8 @@ public final class Alpine {
 
         int x = quartX << 2;
         int z = quartZ << 2;
-        double temperature = sampler.temperature().compute(new DensityFunction.SinglePointContext(x, y, z));
-        double heat = Mth.clamp((temperature + 1) / 2, 0, 1);
-        double treeline = Mth.lerp(heat, s.coldY, s.hotY) + jitter(x, z);
+        double temperature = temperature(x, z, sampler);
+        double treeline = treeline(s, x, z, temperature);
         if (y < treeline) return biome;
 
         if (y >= treeline + s.peaksAbove) {
@@ -66,6 +65,29 @@ public final class Alpine {
         // Meadows, groves, cherry groves and slopes already belong up here
         if (biome.is(BiomeTags.IS_MOUNTAIN)) return biome;
         return temperature < FROZEN ? s.snowySlopes : s.meadow;
+    }
+
+    /**
+     * Whether a tree of up to {@code maxHeight} blocks, growing from {@code x, baseY, z}, stays below the treeline.
+     * Otherwise its crown pokes into the alpine biome and takes on that biome's leaf colour.
+     */
+    public static boolean treeFits(int x, int baseY, int z, int maxHeight, Climate.Sampler sampler) {
+        Settings s = settings;
+        int top = baseY + maxHeight;
+        if (s == null || top < s.coldY - JITTER) return true;
+        // Same quart-aligned sampling as the biome swap, so both agree on where the line is
+        int qx = x & ~3;
+        int qz = z & ~3;
+        return top < treeline(s, qx, qz, temperature(qx, qz, sampler));
+    }
+
+    private static double temperature(int x, int z, Climate.Sampler sampler) {
+        return sampler.temperature().compute(new DensityFunction.SinglePointContext(x, 0, z));
+    }
+
+    private static double treeline(Settings s, int x, int z, double temperature) {
+        double heat = Mth.clamp((temperature + 1) / 2, 0, 1);
+        return Mth.lerp(heat, s.coldY, s.hotY) + jitter(x, z);
     }
 
     // Smooth value noise so the treeline wanders a little instead of cutting a flat contour

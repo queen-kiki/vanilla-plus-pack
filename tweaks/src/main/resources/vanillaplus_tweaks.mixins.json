@@ -7,7 +7,9 @@
     "MidnightConfigMixin",
     "DimensionPhysicsDataMixin",
     "MultiNoiseBiomeSourceMixin",
-    "InjectorBiomeSourceMixin"
+    "InjectorBiomeSourceMixin",
+    "TreeFeatureMixin",
+    "TrunkPlacerAccessor"
   ],
   "injectors": {
     "defaultRequire": 0
