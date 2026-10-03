@@ -900,7 +900,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillaplus-tweaks.jar"
-hash = "6a3b936ef674b93cd6e69be86c399f76e9fdea5faeabc3334dd9ba270630a90d"
+hash = "2b551daa75a907d6cf3586cc49fadf70264573e74cdc50e8d67fdb335e7b37da"
 
 [[files]]
 file = "resourcepacks/allure-3d-plants.pw.toml"
