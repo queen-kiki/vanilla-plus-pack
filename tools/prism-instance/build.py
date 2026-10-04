@@ -52,6 +52,9 @@ def main():
         "OverrideMemory=true",
         "MinMemAlloc=512",
         "MaxMemAlloc=6144",
+        # Generational ZGC: short pauses, so fewer lag spikes than the default G1
+        "OverrideJavaArgs=true",
+        "JvmArgs=-XX:+UseZGC -XX:+ZGenerational",
         "OverrideCommands=true",
         # Prism runs this in the instance's minecraft folder, next to the jars
         f'PreLaunchCommand=\\"$INST_JAVA\\" -jar packwiz-installer-bootstrap.jar --bootstrap-no-update {PACK_URL}',

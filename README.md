@@ -14,7 +14,7 @@ You need [Prism Launcher](https://prismlauncher.org/download/) (free).
 
 2. Launch it. Everything downloads, and it updates itself every time you start the game.
 
-The instance comes set up with NeoForge, 6 GB of memory and the packwiz installer, pinned to a fixed version so it can't update itself behind your back.
+The instance comes set up with NeoForge, 6 GB of memory, a low-lag garbage collector and the packwiz installer, pinned to a fixed version so it can't update itself behind your back.
 
 <details>
 <summary>Setting it up by hand, or updating an older install</summary>
@@ -29,6 +29,7 @@ The instance comes set up with NeoForge, 6 GB of memory and the packwiz installe
    ```
 
 5. Edit → Settings → Java: set maximum memory to 6144 MB.
+6. In the same tab, tick Java arguments and enter `-XX:+UseZGC -XX:+ZGenerational`. That fixes most lag spikes from garbage collection.
 
 If you set the pack up before the installer was pinned (pack 2.3.1), add `--bootstrap-no-update` to your pre-launch command and drop `packwiz-installer.jar` next to the bootstrap. That stops it from updating itself.
 
