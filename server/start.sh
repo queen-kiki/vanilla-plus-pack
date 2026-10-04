@@ -61,7 +61,7 @@ while true; do
 
   java -jar packwiz-installer-bootstrap.jar -g --bootstrap-no-update -s server "$PACK_URL"
 
-  java -Xms"$MEMORY" -Xmx"$MEMORY" @"libraries/net/neoforged/neoforge/$NEOFORGE/unix_args.txt" nogui "$@" || true
+  java -Xms"$MEMORY" -Xmx"$MEMORY" -XX:+UseZGC -XX:+IgnoreUnrecognizedVMOptions -XX:+ZGenerational @"libraries/net/neoforged/neoforge/$NEOFORGE/unix_args.txt" nogui "$@" || true
 
   echo "Server stopped. Restarting in 10 seconds (Ctrl+C to quit)..."
   sleep 10

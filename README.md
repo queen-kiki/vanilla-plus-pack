@@ -29,7 +29,7 @@ The instance comes set up with NeoForge, 6 GB of memory, a low-lag garbage colle
    ```
 
 5. Edit → Settings → Java: set maximum memory to 6144 MB.
-6. In the same tab, tick Java arguments and enter `-XX:+UseZGC -XX:+ZGenerational`. That fixes most lag spikes from garbage collection.
+6. In the same tab, tick Java arguments and enter `-XX:+UseZGC -XX:+IgnoreUnrecognizedVMOptions -XX:+ZGenerational`. That fixes most lag spikes from garbage collection.
 
 If you set the pack up before the installer was pinned (pack 2.3.1), add `--bootstrap-no-update` to your pre-launch command and drop `packwiz-installer.jar` next to the bootstrap. That stops it from updating itself.
 

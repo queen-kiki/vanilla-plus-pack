@@ -44,10 +44,10 @@ if not exist "libraries\net\neoforged\neoforge\%NEOFORGE%\win_args.txt" (
 
 java -jar packwiz-installer-bootstrap.jar -g --bootstrap-no-update -s server "%PACK_URL%"
 
-java -Xms%MEMORY% -Xmx%MEMORY% @libraries/net/neoforged/neoforge/%NEOFORGE%/win_args.txt nogui %*
+java -Xms%MEMORY% -Xmx%MEMORY% -XX:+UseZGC -XX:+IgnoreUnrecognizedVMOptions -XX:+ZGenerational @libraries/net/neoforged/neoforge/%NEOFORGE%/win_args.txt nogui %*
 
 echo Server stopped. Restarting in 10 seconds (close the window to quit)...
-timeout /t 10 /nobreak >nul
+"%SystemRoot%\System32\timeout.exe" /t 10 /nobreak >nul
 goto loop
 
 :fail
