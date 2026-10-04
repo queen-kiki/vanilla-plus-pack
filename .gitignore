@@ -5,3 +5,6 @@
 tweaks/build/
 tweaks/.gradle/
 tweaks/run/
+
+# local planning notes
+docs/
