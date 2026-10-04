@@ -4,6 +4,19 @@ Our NeoForge 1.21.1 pack: vanilla+ with bigger terrain, cozy stuff, and Create A
 
 ## Install (Prism Launcher)
 
+1. In Prism, click Add Instance → Import, paste this link and click OK:
+
+   ```
+   https://github.com/queen-kiki/vanilla-plus-pack/raw/master/install/VanillaPlus.zip
+   ```
+
+2. Launch it. Everything downloads, and it updates itself every time you start the game.
+
+The instance comes set up with NeoForge, 6 GB of memory and the packwiz installer, pinned to a fixed version so it can't update itself behind your back.
+
+<details>
+<summary>Setting it up by hand, or updating an older install</summary>
+
 1. Download [packwiz-installer-bootstrap.jar](https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar) and [packwiz-installer.jar](https://github.com/packwiz/packwiz-installer/releases/download/v0.5.14/packwiz-installer.jar).
 2. In Prism, add an instance for Minecraft 1.21.1, then go to Edit → Version → Install Loader and pick NeoForge 21.1.252.
 3. Open the instance folder and put both jars into the `minecraft` folder (create it if it's not there).
@@ -13,10 +26,11 @@ Our NeoForge 1.21.1 pack: vanilla+ with bigger terrain, cozy stuff, and Create A
    "$INST_JAVA" -jar packwiz-installer-bootstrap.jar --bootstrap-no-update https://raw.githubusercontent.com/queen-kiki/vanilla-plus-pack/master/pack.toml
    ```
 
-   `--bootstrap-no-update` stops the installer from updating itself, so it only ever runs the version you downloaded. If you set the pack up before this was added, add it to your command and drop `packwiz-installer.jar` next to the bootstrap.
-
 5. Edit → Settings → Java: set maximum memory to 6144 MB.
-6. Launch. Everything downloads, and it updates itself every time you start the game.
+
+If you set the pack up before the installer was pinned (pack 2.3.1), add `--bootstrap-no-update` to your pre-launch command and drop `packwiz-installer.jar` next to the bootstrap. That stops it from updating itself.
+
+</details>
 
 Your own graphics, voice chat and zoom settings won't get overwritten by updates.
 If you just missed an update, restart in a few minutes. GitHub takes a moment to catch up.
@@ -98,7 +112,7 @@ git commit -am "..." && git push
 
 The "Vanilla Plus (dev)" instance in Prism installs straight from this folder through `dev-sync.cmd`, so you can try changes before pushing them.
 
-When you bump NeoForge in `pack.toml`, add the new installer's hash to `server/neoforge.sha256` too, or servers will refuse to install it:
+When you bump NeoForge in `pack.toml`, add the new installer's hash to `server/neoforge.sha256` too, or servers will refuse to install it. Then rebuild the Prism instance with `python tools/prism-instance/build.py`, which picks up the new NeoForge version:
 
 ```sh
 v=21.1.300; echo "$(curl -fsSL https://maven.neoforged.net/releases/net/neoforged/neoforge/$v/neoforge-$v-installer.jar | sha256sum | cut -d' ' -f1)  neoforge-$v-installer.jar" >> server/neoforge.sha256

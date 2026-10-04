@@ -2,6 +2,7 @@
 *.jar
 *.zip
 !mods/vanillaplus-tweaks.jar
+!install/VanillaPlus.zip
 tweaks/build/
 tweaks/.gradle/
 tweaks/run/
