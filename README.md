@@ -4,6 +4,8 @@ Our NeoForge 1.21.1 pack: vanilla+ with bigger terrain, cozy stuff, and Create A
 
 ## Install (Prism Launcher)
 
+You need [Prism Launcher](https://prismlauncher.org/download/) (free).
+
 1. In Prism, click Add Instance → Import, paste this link and click OK:
 
    ```
