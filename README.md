@@ -4,14 +4,16 @@ Our NeoForge 1.21.1 pack: vanilla+ with bigger terrain, cozy stuff, and Create A
 
 ## Install (Prism Launcher)
 
-1. Download [packwiz-installer-bootstrap.jar](https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar).
+1. Download [packwiz-installer-bootstrap.jar](https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar) and [packwiz-installer.jar](https://github.com/packwiz/packwiz-installer/releases/download/v0.5.14/packwiz-installer.jar).
 2. In Prism, add an instance for Minecraft 1.21.1, then go to Edit → Version → Install Loader and pick NeoForge 21.1.252.
-3. Open the instance folder and put the jar into the `minecraft` folder (create it if it's not there).
+3. Open the instance folder and put both jars into the `minecraft` folder (create it if it's not there).
 4. Edit → Settings → Custom commands: tick Custom Commands and use this as the pre-launch command:
 
    ```
-   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/queen-kiki/vanilla-plus-pack/master/pack.toml
+   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar --bootstrap-no-update https://raw.githubusercontent.com/queen-kiki/vanilla-plus-pack/master/pack.toml
    ```
+
+   `--bootstrap-no-update` stops the installer from updating itself, so it only ever runs the version you downloaded. If you set the pack up before this was added, add it to your command and drop `packwiz-installer.jar` next to the bootstrap.
 
 5. Edit → Settings → Java: set maximum memory to 6144 MB.
 6. Launch. Everything downloads, and it updates itself every time you start the game.
@@ -30,6 +32,8 @@ The `server` folder has start scripts that set up and update a server by themsel
 Every time the server stops or crashes, it restarts after 10 seconds and pulls the latest pack first, so `/stop` is all it takes to update. If the pack bumps NeoForge, the script installs the new version too. To quit for real, press Ctrl+C (or close the window) during the countdown.
 
 It uses 6 GB of RAM by default. Set the `MEMORY` environment variable to change that, e.g. `MEMORY=8G ./start.sh`.
+
+Everything the scripts download is checked against a SHA-256 hash, and they refuse anything that doesn't match. packwiz-installer is pinned to a fixed version, NeoForge is checked against `server/neoforge.sha256`, and the mods are checked against the hashes in the pack index.
 
 ## Resource packs
 
@@ -93,5 +97,11 @@ git commit -am "..." && git push
 ```
 
 The "Vanilla Plus (dev)" instance in Prism installs straight from this folder through `dev-sync.cmd`, so you can try changes before pushing them.
+
+When you bump NeoForge in `pack.toml`, add the new installer's hash to `server/neoforge.sha256` too, or servers will refuse to install it:
+
+```sh
+v=21.1.300; echo "$(curl -fsSL https://maven.neoforged.net/releases/net/neoforged/neoforge/$v/neoforge-$v-installer.jar | sha256sum | cut -d' ' -f1)  neoforge-$v-installer.jar" >> server/neoforge.sha256
+```
 
 `tweaks/` is the source of our own mod, `mods/vanillaplus-tweaks.jar` (oxygen up high, alpine biomes above the treeline, seasonal airship lift, the altitude readout, autumn harvests, the advancement tab and so on). Rebuild it with `gradlew install` inside `tweaks/` (needs a Java 21+ JDK; Prism's bundled Java works). The pack version shown in-game comes from `pack.toml`, so rebuild after changing it.

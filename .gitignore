@@ -14,3 +14,4 @@ server/*
 !server/start.sh
 !server/start.bat
 !server/server.properties.defaults
+!server/neoforge.sha256
