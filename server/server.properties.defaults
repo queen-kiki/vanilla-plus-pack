@@ -1,0 +1,4 @@
+# Copied to server.properties on first start. The server fills in the rest.
+# Jetpacks and airships count as flying, so without this players get kicked.
+allow-flight=true
+motd=Vanilla Plus

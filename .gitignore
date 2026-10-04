@@ -8,3 +8,9 @@ tweaks/run/
 
 # local planning notes
 docs/
+
+# server runtime files (only the scripts are tracked)
+server/*
+!server/start.sh
+!server/start.bat
+!server/server.properties.defaults

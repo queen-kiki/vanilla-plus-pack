@@ -19,6 +19,18 @@ Our NeoForge 1.21.1 pack: vanilla+ with bigger terrain, cozy stuff, and Create A
 Your own graphics, voice chat and zoom settings won't get overwritten by updates.
 If you just missed an update, restart in a few minutes. GitHub takes a moment to catch up.
 
+## Server
+
+The `server` folder has start scripts that set up and update a server by themselves. You need Java 21.
+
+1. Copy `start.sh` (Linux) or `start.bat` (Windows) and `server.properties.defaults` into an empty folder.
+2. Run the script once. It creates `eula.txt`; set `eula=true` in it.
+3. Run the script again. It installs NeoForge, downloads the server-side mods and configs with packwiz, and starts the server.
+
+Every time the server stops or crashes, it restarts after 10 seconds and pulls the latest pack first, so `/stop` is all it takes to update. If the pack bumps NeoForge, the script installs the new version too. To quit for real, press Ctrl+C (or close the window) during the countdown.
+
+It uses 6 GB of RAM by default. Set the `MEMORY` environment variable to change that, e.g. `MEMORY=8G ./start.sh`.
+
 ## Resource packs
 
 The default resource-pack selection and order live in `config/defaultoptions-common.toml`, including mod-provided packs. Default Options applies this selection once on a fresh install, so it won't overwrite your choices on later launches.
