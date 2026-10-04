@@ -1,12 +1,12 @@
 name = "Vanilla Plus"
 author = "Kiki"
-version = "2.3.0"
+version = "2.3.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7910e7f38498dc1b46936a303db5c5619e62b24adaa08ff0edbf24331cf08b4b"
+hash = "c597ef6fbc225dbef7bce3ef37eca53db1fe8a796c32810053a7ae839c758412"
 
 [versions]
 minecraft = "1.21.1"
