@@ -679,6 +679,11 @@ hash = "72b574928516e3d01e66b4ea3981480dc9c5175121b2001812a6cd0dca2f1b7d"
 metafile = true
 
 [[files]]
+file = "mods/exposure.pw.toml"
+hash = "b9c7e06aaedf28d4f5fd4d002aa290b755bea76a9c2c0012a4a46efea1a3ef7d"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "97347efd9e808841d72fe3599da8a11add8422e97f89ae1c85cdfc0acfa18f96"
 metafile = true
@@ -806,6 +811,11 @@ metafile = true
 [[files]]
 file = "mods/particular-reforged.pw.toml"
 hash = "730bdc959644cd2e596b27fd9096ec6f84e1ad0e46b81a2f0d0f839ebdcd5808"
+metafile = true
+
+[[files]]
+file = "mods/polytone.pw.toml"
+hash = "a7af695080bf24f091c87d411ca0713ee95e047b2dc0051689c4e9d178c5ba6f"
 metafile = true
 
 [[files]]
